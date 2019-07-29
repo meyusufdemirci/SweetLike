@@ -33,8 +33,10 @@
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C59857E0D9E5F8F94DB384E12487D16B /* Pods-SweetLike_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D26BC3F78EA05456051397D2C90A34 /* Pods-SweetLike_Example-dummy.m */; };
 		C72B57E6FB46BAD614EACF8799937C1C /* Pods-SweetLike_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC3A3C7A6F18FA859FD3EA480A03074 /* Pods-SweetLike_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9453F2B22EF717600AFB3CF /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = C9453F2922EF717600AFB3CF /* like.png */; };
-		C9453F2C22EF717600AFB3CF /* unlike.png in Resources */ = {isa = PBXBuildFile; fileRef = C9453F2A22EF717600AFB3CF /* unlike.png */; };
+		C907190922EF7A80004DA8DC /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = C907190722EF7A80004DA8DC /* like.png */; };
+		C907190A22EF7A80004DA8DC /* unlike.png in Resources */ = {isa = PBXBuildFile; fileRef = C907190822EF7A80004DA8DC /* unlike.png */; };
+		C907191522EF7BC5004DA8DC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907191422EF7BC5004DA8DC /* UIViewExtensions.swift */; };
+		C907191922EF7C94004DA8DC /* SweetLikeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907191822EF7C93004DA8DC /* SweetLikeDelegate.swift */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
@@ -113,8 +115,10 @@
 		BFB32F5DA29B532DCBDEA6DA286CD3A8 /* Pods-SweetLike_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Tests-Info.plist"; sourceTree = "<group>"; };
 		C201488C72AAA5D40A91FB2F8A09B2DE /* Pods-SweetLike_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SweetLike_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C69D5AB51A404302ECBD0616C421A478 /* Pods-SweetLike_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetLike_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C9453F2922EF717600AFB3CF /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = SweetLike/Assets/like.png; sourceTree = "<group>"; };
-		C9453F2A22EF717600AFB3CF /* unlike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unlike.png; path = SweetLike/Assets/unlike.png; sourceTree = "<group>"; };
+		C907190722EF7A80004DA8DC /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = ../SweetLike/Assets/like.png; sourceTree = "<group>"; };
+		C907190822EF7A80004DA8DC /* unlike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unlike.png; path = ../SweetLike/Assets/unlike.png; sourceTree = "<group>"; };
+		C907191422EF7BC5004DA8DC /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ../../SweetLike/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
+		C907191822EF7C93004DA8DC /* SweetLikeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweetLikeDelegate.swift; path = SweetLike/Classes/SweetLikeDelegate.swift; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		DDA05E838EB8DDB3C05B18BFB109954A /* SweetLike.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweetLike.modulemap; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -308,6 +312,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C907190622EF7A2B004DA8DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C907190722EF7A80004DA8DC /* like.png */,
+				C907190822EF7A80004DA8DC /* unlike.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C907190D22EF7AB3004DA8DC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C907190E22EF7AB7004DA8DC /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C907190E22EF7AB7004DA8DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C907191422EF7BC5004DA8DC /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -349,11 +378,12 @@
 		FA23BA6ADFDCC0BE5308D75CCF05FF81 /* SweetLike */ = {
 			isa = PBXGroup;
 			children = (
-				C9453F2922EF717600AFB3CF /* like.png */,
-				C9453F2A22EF717600AFB3CF /* unlike.png */,
 				26F66408BAA41F75D382796511E1C3A7 /* SweetLike.swift */,
+				C907191822EF7C93004DA8DC /* SweetLikeDelegate.swift */,
 				F390F9FFD7D044B06EBEB88E08624F76 /* Pod */,
+				C907190622EF7A2B004DA8DC /* Resources */,
 				1818448D58EA1570132B9E622D8FC94E /* Support Files */,
+				C907190D22EF7AB3004DA8DC /* Utils */,
 			);
 			name = SweetLike;
 			path = ../..;
@@ -520,8 +550,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9453F2B22EF717600AFB3CF /* like.png in Resources */,
-				C9453F2C22EF717600AFB3CF /* unlike.png in Resources */,
+				C907190922EF7A80004DA8DC /* like.png in Resources */,
+				C907190A22EF7A80004DA8DC /* unlike.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +577,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A7E31E293C915871691C9DECDB562E /* SweetLike.swift in Sources */,
+				C907191522EF7BC5004DA8DC /* UIViewExtensions.swift in Sources */,
+				C907191922EF7C94004DA8DC /* SweetLikeDelegate.swift in Sources */,
 				574D709954554E00A9306F2857CE5D1D /* SweetLike-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

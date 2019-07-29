@@ -12,11 +12,6 @@ public enum Status {
     case liked, unliked
 }
 
-public protocol SweetLikeDelegate {
-    func likeAction()
-    func unlikeAction()
-}
-
 @IBDesignable public class SweetLike: UIView {
     
     // MARK: Properties
@@ -131,17 +126,5 @@ private extension SweetLike {
         button.contentHorizontalAlignment = .center
         addSubview(button)
         button.bindFrameToViewBounds(toView: self)
-    }
-}
-
-extension UIView {
-    
-    func bindFrameToViewBounds(toView: UIView) {
-        translatesAutoresizingMaskIntoConstraints = false
-        
-        topAnchor.constraint(equalTo: toView.topAnchor, constant: 0).isActive = true
-        bottomAnchor.constraint(equalTo: toView.bottomAnchor, constant: 0).isActive = true
-        leadingAnchor.constraint(equalTo: toView.leadingAnchor, constant: 0).isActive = true
-        trailingAnchor.constraint(equalTo: toView.trailingAnchor, constant: 0).isActive = true
     }
 }
