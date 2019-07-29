@@ -26,7 +26,7 @@ pod 'SweetLike'
 
 ## Author
 
-demirciy, demirciy94@gmail.com
+Yusuf Demirci, demirciy94@gmail.com
 
 ## License
 
