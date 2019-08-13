@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name = 'SweetLike'
-s.version = '0.3.0'
+s.version = '0.4.0'
 s.summary = 'A beautiful like button.'
 s.description = 'The SweetLike is a completely customizable like button that can be used in any iOS application.'
 
