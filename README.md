@@ -9,11 +9,11 @@
 
 ![alt tag](https://media.giphy.com/media/UWc65S9RjZL3DE399c/giphy.gif)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+ - iOS 10.0+
+ - Xcode 8.0+
+ - Swift 3.0+
 
 ## Installation
 
@@ -23,6 +23,48 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SweetLike'
 ```
+
+## Usage
+
+Create,
+
+on storyboard:
+
+```ruby
+@IBOutlet weak var sweetLikeButton: SweetLike!
+```
+
+or programmatically:
+
+```ruby
+let sweetLikeButton = SweetLike()
+```
+
+To get like and unlike actions,
+
+with completion:
+
+```ruby
+sweetLikeButton.likeActionCompletion = {}
+sweetLikeButton.unlikeActionCompletion = {}
+```
+
+with delegate(SweetLikeDelegate):
+
+```ruby
+func likeAction() {}
+func unlikeAction() {}
+```
+
+There are a few properties you may change:
+
+| Property                        | Description                                            | Type    | Default Value |
+|:--------------------------------|:-------------------------------------------------------|:--------|:--------------|
+| IBInspectable likeImage         | The image that shows when liked                        | UIImage |               |
+| IBInspectable unlikeImage       | The image that shows when unliked                      | UIImage |               |
+| likeActionAnimationDuration     | The duration of total like animation                   | Double  |      0.6      |
+| unlikeActionAnimationDuration   | The duration of total unlike animation                 | Double  |      0.15     |
+| isAnimationEnabled              | The boolean if animating enabled or disabled           | Bool    |      true     |
 
 ## Author
 
