@@ -18,22 +18,29 @@ public enum Status {
     public var likeButton: UIButton!
     public var unlikeButton: UIButton!
     @IBInspectable public var likeImage: UIImage? = UIImage(named: "like", in: Bundle(for: SweetLike.self), compatibleWith: nil)
-    @IBInspectable public var likeColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
     @IBInspectable public var unlikeImage: UIImage? = UIImage(named: "unlike", in: Bundle(for: SweetLike.self), compatibleWith: nil)
-    @IBInspectable public var unlikeColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
-    @IBInspectable public var likeActionAnimationDuration: Double = 0.6
-    @IBInspectable public var unlikeActionAnimationDuration: Double = 0.15
+    public var likeActionAnimationDuration: Double = 0.6
+    public var unlikeActionAnimationDuration: Double = 0.15
     public var delegate: SweetLikeDelegate?
     public var likeActionCompletion: (() -> Void)?
     public var unlikeActionCompletion: (() -> Void)?
+    public var currentStatus: Status {
+        return status
+    }
+    public var isAnimationEnabled: Bool = true
+    
+    /// likeButton tint color
+    private var likeColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
+    /// unlikeButton tint color
+    private var unlikeColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
     private var isAnimating = false
     private var status: Status = .unliked {
         didSet {
             switch status {
             case .liked:
-                likeAction()
+                isAnimationEnabled ? likeActionWithAnimation() : likeActionWithoutAnimation()
             case .unliked:
-                unlikeAction()
+                isAnimationEnabled ? unlikeActionWithAnimation() : unlikeActionWithoutAnimation()
             }
         }
     }
@@ -56,7 +63,7 @@ private extension SweetLike {
         setStatus(.liked)
     }
     
-    @objc func likeAction() {
+    @objc func likeActionWithAnimation() {
         isAnimating = true
         delegate?.likeAction()
         likeActionCompletion?()
@@ -76,7 +83,18 @@ private extension SweetLike {
         })
     }
     
-    @objc func unlikeAction() {
+    @objc func likeActionWithoutAnimation() {
+        isAnimating = true
+        delegate?.likeAction()
+        likeActionCompletion?()
+        
+        unlikeButton.alpha = 0
+        likeButton.alpha = 1
+        
+        isAnimating = false
+    }
+    
+    @objc func unlikeActionWithAnimation() {
         isAnimating = true
         delegate?.unlikeAction()
         unlikeActionCompletion?()
@@ -87,6 +105,17 @@ private extension SweetLike {
         }) { (_) in
             self.isAnimating = false
         }
+    }
+    
+    @objc func unlikeActionWithoutAnimation() {
+        isAnimating = true
+        delegate?.unlikeAction()
+        unlikeActionCompletion?()
+        
+        likeButton.alpha = 0
+        unlikeButton.alpha = 1
+        
+        isAnimating = false
     }
 }
 
@@ -103,7 +132,7 @@ public extension SweetLike {
 // MARK: Private Functions
 private extension SweetLike {
     
-    private func initUI() {
+    func initUI() {
         // MARK: Initializing like button
         likeButton = UIButton(frame: self.frame)
         likeButton.alpha = 0
@@ -120,7 +149,7 @@ private extension SweetLike {
         initButton(button: unlikeButton)
     }
     
-    private func initButton(button: UIButton) {
+    func initButton(button: UIButton) {
         button.imageView?.contentMode = .scaleAspectFit
         button.contentVerticalAlignment = .center
         button.contentHorizontalAlignment = .center

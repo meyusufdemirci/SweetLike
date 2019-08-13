@@ -7,50 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07A7E31E293C915871691C9DECDB562E /* SweetLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F66408BAA41F75D382796511E1C3A7 /* SweetLike.swift */; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		1661B8D08C9C5FD407543CADE7A2C10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		2265918217A75D64AFAD0ED1E7F505D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		27A3250EB8F3CCDA23789DDC0749FC48 /* SweetLike-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AACFB9E6050E3DAF953A29AE7B12AD46 /* SweetLike-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		574D709954554E00A9306F2857CE5D1D /* SweetLike-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F733BEB789A050F47AAAEB470DC787 /* SweetLike-dummy.m */; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		76DC1DEAAF9AFA6364FE7CA84B24CE6B /* Pods-SweetLike_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5E8285A4E6F0ADEA59AD9DAECA18 /* Pods-SweetLike_Tests-dummy.m */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B30264D97502E8E231F41E4E3D34DEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BB8D138E85E6BBC1B480AAADB66BECE0 /* Pods-SweetLike_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A81267E7CABA158B32E5EDAF1AB3C6A /* Pods-SweetLike_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C59857E0D9E5F8F94DB384E12487D16B /* Pods-SweetLike_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D26BC3F78EA05456051397D2C90A34 /* Pods-SweetLike_Example-dummy.m */; };
-		C72B57E6FB46BAD614EACF8799937C1C /* Pods-SweetLike_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC3A3C7A6F18FA859FD3EA480A03074 /* Pods-SweetLike_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C907190922EF7A80004DA8DC /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = C907190722EF7A80004DA8DC /* like.png */; };
-		C907190A22EF7A80004DA8DC /* unlike.png in Resources */ = {isa = PBXBuildFile; fileRef = C907190822EF7A80004DA8DC /* unlike.png */; };
-		C907191522EF7BC5004DA8DC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907191422EF7BC5004DA8DC /* UIViewExtensions.swift */; };
-		C907191922EF7C94004DA8DC /* SweetLikeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907191822EF7C93004DA8DC /* SweetLikeDelegate.swift */; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B3216153071BCEBA2FC6520093B5114 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C891E4AFB552961C8C5893DF1510CFB /* like.png */; };
+		2265918217A75D64AFAD0ED1E7F505D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		260A42230AA64793913A29C37AA3B5A8 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B5CE7D3770366D4DA3E207CF61E02 /* UIViewExtensions.swift */; };
+		4CE68626C3A79285346A2220DA46CAB8 /* SweetLike-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0663FC15B31158E918BBEF5EE9506DE /* SweetLike-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8192831888BCD6000BDE65D61205BC01 /* Pods-SweetLike_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F20048DDB57E695EE3E3D606DA126A /* Pods-SweetLike_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840F22B46C111CB7D6F184BC57BCE3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		86B0A3DB3A9F2597DA3456A85CE85D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		94EC28A0A0C9E59FF5342149B4207AF4 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C891E4AFB552961C8C5893DF1510CFB /* like.png */; };
+		9E3ADE5F9DED06C92BE74659EF35BDBA /* SweetLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F62A79CA0631D25F2F30CC2F1B68A5 /* SweetLike.swift */; };
+		B16E3CBE81FDC66F5371EF6D9D8AA12C /* Pods-SweetLike_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3314E3D6DCAD48F42278449146D175 /* Pods-SweetLike_Tests-dummy.m */; };
+		B4CC95217C942441DD0F58D352D99AA5 /* SweetLike-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A07EA435F31410D1E572715CAE8983 /* SweetLike-dummy.m */; };
+		B5D2502280DA491780D4373F352056EA /* unlike.png in Resources */ = {isa = PBXBuildFile; fileRef = D4026C6C0E3BB4F99D93367DC1CDE6A7 /* unlike.png */; };
+		C59857E0D9E5F8F94DB384E12487D16B /* Pods-SweetLike_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B78927418719505696F13686C9EFC /* Pods-SweetLike_Example-dummy.m */; };
+		C72B57E6FB46BAD614EACF8799937C1C /* Pods-SweetLike_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3D5A20210431582B1CACD48DAA1068 /* Pods-SweetLike_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3B14F06C175F78478D052997020C2CB /* unlike.png in Resources */ = {isa = PBXBuildFile; fileRef = D4026C6C0E3BB4F99D93367DC1CDE6A7 /* unlike.png */; };
+		ED1EE35324F4666C6FB8F5C8982EA58C /* SweetLikeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B76E2D3680C302726936DCFE164F37 /* SweetLikeDelegate.swift */; };
+		F57CC80A6491A0DB0E10D0F1CF87C27B /* SweetLike.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5A8A6259F6E37B52BB2A5A0635C2363 /* SweetLike.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D3B32C07615A9DD8C8DF2529734C820 /* PBXContainerItemProxy */ = {
+		28A7C24C427C1580D31BE15CCB8038AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
+			remoteGlobalIDString = 87DD5985A5B5645B8697E18C18D51B63;
+			remoteInfo = "SweetLike-SweetLike";
+		};
+		3C143A9D72ED1751030C8858D56E3406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E3351CE35FAD3EA3E97F66F88137C7;
+			remoteInfo = "Pods-SweetLike_Example";
 		};
 		DF47D8AD6F60F39F81C5D799D7E480B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -59,81 +48,58 @@
 			remoteGlobalIDString = 99165B3312606ADE1FEB8E8DAFE84F2B;
 			remoteInfo = SweetLike;
 		};
-		FDDB88DB71902364E2D5B5D43B0E8DAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78E3351CE35FAD3EA3E97F66F88137C7;
-			remoteInfo = "Pods-SweetLike_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0901DA14E356BBB1CB87FD26A6C36434 /* SweetLike-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweetLike-prefix.pch"; sourceTree = "<group>"; };
-		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		0FD56C6B07E3ECA032DBA9B6D7D4C0B3 /* SweetLike.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SweetLike.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		124350F34642E6781541DC73ABBDD8A1 /* Pods-SweetLike_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SweetLike_Example-frameworks.sh"; sourceTree = "<group>"; };
-		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		19D4D0C7B5CB5576C52EF4A206304DEA /* Pods-SweetLike_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		19DC5E8285A4E6F0ADEA59AD9DAECA18 /* Pods-SweetLike_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SweetLike_Tests-dummy.m"; sourceTree = "<group>"; };
-		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		1F6A8D59577C469A32744D979B9DCB0B /* Pods-SweetLike_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetLike_Example.release.xcconfig"; sourceTree = "<group>"; };
-		26F66408BAA41F75D382796511E1C3A7 /* SweetLike.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SweetLike.swift; path = SweetLike/Classes/SweetLike.swift; sourceTree = "<group>"; };
-		281A9B1B114EE0DD1C692698CF1167AA /* Pods-SweetLike_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetLike_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		39F733BEB789A050F47AAAEB470DC787 /* SweetLike-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweetLike-dummy.m"; sourceTree = "<group>"; };
-		3A13F6D4FACCC2841E1F0FBF83892CFD /* Pods-SweetLike_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetLike_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		4A81267E7CABA158B32E5EDAF1AB3C6A /* Pods-SweetLike_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SweetLike_Tests-umbrella.h"; sourceTree = "<group>"; };
+		01839943196CA13ED1414C7E58ACF255 /* Pods-SweetLike_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		09D330BAAB6E51F1EA4260524680B41A /* Pods-SweetLike_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetLike_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C2B5CE7D3770366D4DA3E207CF61E02 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = SweetLike/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
+		1C891E4AFB552961C8C5893DF1510CFB /* like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = like.png; path = SweetLike/Assets/like.png; sourceTree = "<group>"; };
+		1D790A97418C7B28A94FBB88E4349060 /* Pods-SweetLike_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B3314E3D6DCAD48F42278449146D175 /* Pods-SweetLike_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SweetLike_Tests-dummy.m"; sourceTree = "<group>"; };
+		2C4B78927418719505696F13686C9EFC /* Pods-SweetLike_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SweetLike_Example-dummy.m"; sourceTree = "<group>"; };
+		2E890D8271219F4051D462C19B6AAC55 /* Pods-SweetLike_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SweetLike_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32CA1ABEB60E344D4E8623C574BA4E77 /* SweetLike-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweetLike-prefix.pch"; sourceTree = "<group>"; };
+		33F62A79CA0631D25F2F30CC2F1B68A5 /* SweetLike.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SweetLike.swift; path = SweetLike/Classes/SweetLike.swift; sourceTree = "<group>"; };
+		389F0B047E6B31C296A09497E7395B6C /* Pods-SweetLike_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Tests-Info.plist"; sourceTree = "<group>"; };
+		39F9D020672A8BF5B767521B56A9B33D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		499061D146B6F8C066FB74AA287DC472 /* Pods-SweetLike_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetLike_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D859B87DD1D078C8279686B60DB88FF /* SweetLike.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweetLike.modulemap; sourceTree = "<group>"; };
 		4E27EE8C49BAB45F32AF677F08011264 /* SweetLike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetLike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AF9D4975263DC7ABAC5D9A9A9249115 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		62D26BC3F78EA05456051397D2C90A34 /* Pods-SweetLike_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SweetLike_Example-dummy.m"; sourceTree = "<group>"; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7DCABA9DFE196D6C4593E1E8CFD05EA6 /* Pods-SweetLike_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SweetLike_Example.modulemap"; sourceTree = "<group>"; };
-		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		4ECF53B2FDBB6D92FD98DA52BB973C9D /* Pods-SweetLike_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetLike_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53BD81FCF3A6B3ECBB424D090C0C3D05 /* SweetLike.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweetLike.xcconfig; sourceTree = "<group>"; };
+		64B76E2D3680C302726936DCFE164F37 /* SweetLikeDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SweetLikeDelegate.swift; path = SweetLike/Classes/SweetLikeDelegate.swift; sourceTree = "<group>"; };
+		6B927B69C914EB4516B666604244661D /* ResourceBundle-SweetLike-SweetLike-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SweetLike-SweetLike-Info.plist"; sourceTree = "<group>"; };
+		6DD14F385B5726CCE9EB0B19C93F03AB /* Pods-SweetLike_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SweetLike_Tests.modulemap"; sourceTree = "<group>"; };
+		7452F30094B82F74C68C43E3905F8875 /* Pods-SweetLike_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetLike_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7E3D5A20210431582B1CACD48DAA1068 /* Pods-SweetLike_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SweetLike_Example-umbrella.h"; sourceTree = "<group>"; };
 		8C2A57C0C43FF9AFE00222D80BF6F111 /* Pods_SweetLike_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetLike_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		919985A1FEF5B5921B62CFA2CF55E4D7 /* SweetLike-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweetLike-Info.plist"; sourceTree = "<group>"; };
-		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9C46EFD64D41463E41F4FE6604BD3287 /* Pods-SweetLike_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SweetLike_Tests.modulemap"; sourceTree = "<group>"; };
+		93CBE80F9914D0BD370FDE364DA8690D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		97A07EA435F31410D1E572715CAE8983 /* SweetLike-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweetLike-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F95CB69E2961D78BC05F803DDCADC22 /* Pods-SweetLike_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetLike_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A0FB8648B96CF836956088F9C93AFC97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A5D516333593A5335957DEBE312926B1 /* Pods-SweetLike_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetLike_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AACFB9E6050E3DAF953A29AE7B12AD46 /* SweetLike-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweetLike-umbrella.h"; sourceTree = "<group>"; };
-		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		B1F8FBF203F38B69553BC3DECDDF564F /* Pods-SweetLike_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Example-Info.plist"; sourceTree = "<group>"; };
-		BFB32F5DA29B532DCBDEA6DA286CD3A8 /* Pods-SweetLike_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Tests-Info.plist"; sourceTree = "<group>"; };
-		C201488C72AAA5D40A91FB2F8A09B2DE /* Pods-SweetLike_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SweetLike_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C69D5AB51A404302ECBD0616C421A478 /* Pods-SweetLike_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetLike_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C907190722EF7A80004DA8DC /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = ../SweetLike/Assets/like.png; sourceTree = "<group>"; };
-		C907190822EF7A80004DA8DC /* unlike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unlike.png; path = ../SweetLike/Assets/unlike.png; sourceTree = "<group>"; };
-		C907191422EF7BC5004DA8DC /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ../../SweetLike/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
-		C907191822EF7C93004DA8DC /* SweetLikeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweetLikeDelegate.swift; path = SweetLike/Classes/SweetLikeDelegate.swift; sourceTree = "<group>"; };
-		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		DDA05E838EB8DDB3C05B18BFB109954A /* SweetLike.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweetLike.modulemap; sourceTree = "<group>"; };
-		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		DEC3A3C7A6F18FA859FD3EA480A03074 /* Pods-SweetLike_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SweetLike_Example-umbrella.h"; sourceTree = "<group>"; };
-		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E0B2CB628373DA1767C5A6C9C650C49F /* Pods-SweetLike_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		A48EB3DB89169508BAFDDD34FE621196 /* Pods-SweetLike_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetLike_Example-Info.plist"; sourceTree = "<group>"; };
+		A5A8A6259F6E37B52BB2A5A0635C2363 /* SweetLike.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetLike.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7047DB2C0B4382746CF35E24CCB1A98 /* Pods-SweetLike_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetLike_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C3688694FAA7B11221078BCD8F0D73DB /* SweetLike.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SweetLike.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0663FC15B31158E918BBEF5EE9506DE /* SweetLike-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweetLike-umbrella.h"; sourceTree = "<group>"; };
+		D4026C6C0E3BB4F99D93367DC1CDE6A7 /* unlike.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = unlike.png; path = SweetLike/Assets/unlike.png; sourceTree = "<group>"; };
+		E2756FB056BAA9EABB4B589BEC6568B0 /* SweetLike-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweetLike-Info.plist"; sourceTree = "<group>"; };
 		EAC2115392274AE8F662E2B60E558995 /* Pods_SweetLike_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetLike_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		FDB518C29D99605B20596D0CA970A90E /* SweetLike.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweetLike.xcconfig; sourceTree = "<group>"; };
+		ED56E51D770120D90E8C8FBE431DCC47 /* Pods-SweetLike_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SweetLike_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5F20048DDB57E695EE3E3D606DA126A /* Pods-SweetLike_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SweetLike_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F9EA00C5C9599C310EBB1F6E486B7151 /* Pods-SweetLike_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetLike_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2660670A9AD3EE576BCA20C17D76F6EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B0A3DB3A9F2597DA3456A85CE85D72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45934E559F8A6AC830ADF6FB0CC24829 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,284 +108,176 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AEB6E22749EB3056786693C344E61AE /* Frameworks */ = {
+		8B82435D6E7C660CA545EB0022209B07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1661B8D08C9C5FD407543CADE7A2C10D /* Foundation.framework in Frameworks */,
+				840F22B46C111CB7D6F184BC57BCE3A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E16279DDCD3CCD9D07D940CFB4FF2172 /* Frameworks */ = {
+		97EAEEAC43FA84724CE71197D93118E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30264D97502E8E231F41E4E3D34DEF8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
-				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
-				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
-				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14EAFD0833DAB8C9158CF750295E7587 /* Pods-SweetLike_Tests */ = {
+		12B82638556272D626B1063969C74102 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9C46EFD64D41463E41F4FE6604BD3287 /* Pods-SweetLike_Tests.modulemap */,
-				A5D516333593A5335957DEBE312926B1 /* Pods-SweetLike_Tests-acknowledgements.markdown */,
-				19D4D0C7B5CB5576C52EF4A206304DEA /* Pods-SweetLike_Tests-acknowledgements.plist */,
-				19DC5E8285A4E6F0ADEA59AD9DAECA18 /* Pods-SweetLike_Tests-dummy.m */,
-				C201488C72AAA5D40A91FB2F8A09B2DE /* Pods-SweetLike_Tests-frameworks.sh */,
-				BFB32F5DA29B532DCBDEA6DA286CD3A8 /* Pods-SweetLike_Tests-Info.plist */,
-				4A81267E7CABA158B32E5EDAF1AB3C6A /* Pods-SweetLike_Tests-umbrella.h */,
-				281A9B1B114EE0DD1C692698CF1167AA /* Pods-SweetLike_Tests.debug.xcconfig */,
-				9F95CB69E2961D78BC05F803DDCADC22 /* Pods-SweetLike_Tests.release.xcconfig */,
+				93CBE80F9914D0BD370FDE364DA8690D /* LICENSE */,
+				39F9D020672A8BF5B767521B56A9B33D /* README.md */,
+				C3688694FAA7B11221078BCD8F0D73DB /* SweetLike.podspec */,
 			);
-			name = "Pods-SweetLike_Tests";
-			path = "Target Support Files/Pods-SweetLike_Tests";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		1818448D58EA1570132B9E622D8FC94E /* Support Files */ = {
+		190C05BB28709CF02232FEAC6AF0DBC2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DDA05E838EB8DDB3C05B18BFB109954A /* SweetLike.modulemap */,
-				FDB518C29D99605B20596D0CA970A90E /* SweetLike.xcconfig */,
-				39F733BEB789A050F47AAAEB470DC787 /* SweetLike-dummy.m */,
-				919985A1FEF5B5921B62CFA2CF55E4D7 /* SweetLike-Info.plist */,
-				0901DA14E356BBB1CB87FD26A6C36434 /* SweetLike-prefix.pch */,
-				AACFB9E6050E3DAF953A29AE7B12AD46 /* SweetLike-umbrella.h */,
+				CF8F3F74AACA912C372916BD7E793C4C /* SweetLike */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SweetLike";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		23C17B88C954B9D28BA80F14707AD855 /* Products */ = {
+		2240BB61FFA51A11FC2273E87BF65AF3 /* Pods-SweetLike_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				EAC2115392274AE8F662E2B60E558995 /* Pods_SweetLike_Example.framework */,
-				8C2A57C0C43FF9AFE00222D80BF6F111 /* Pods_SweetLike_Tests.framework */,
-				4E27EE8C49BAB45F32AF677F08011264 /* SweetLike.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
-				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
-				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
-				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
-				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
-				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DF50DE033103E00CA4D2BDE678C2690 /* Pods-SweetLike_Example */ = {
-			isa = PBXGroup;
-			children = (
-				7DCABA9DFE196D6C4593E1E8CFD05EA6 /* Pods-SweetLike_Example.modulemap */,
-				C69D5AB51A404302ECBD0616C421A478 /* Pods-SweetLike_Example-acknowledgements.markdown */,
-				E0B2CB628373DA1767C5A6C9C650C49F /* Pods-SweetLike_Example-acknowledgements.plist */,
-				62D26BC3F78EA05456051397D2C90A34 /* Pods-SweetLike_Example-dummy.m */,
-				124350F34642E6781541DC73ABBDD8A1 /* Pods-SweetLike_Example-frameworks.sh */,
-				B1F8FBF203F38B69553BC3DECDDF564F /* Pods-SweetLike_Example-Info.plist */,
-				DEC3A3C7A6F18FA859FD3EA480A03074 /* Pods-SweetLike_Example-umbrella.h */,
-				3A13F6D4FACCC2841E1F0FBF83892CFD /* Pods-SweetLike_Example.debug.xcconfig */,
-				1F6A8D59577C469A32744D979B9DCB0B /* Pods-SweetLike_Example.release.xcconfig */,
+				2E890D8271219F4051D462C19B6AAC55 /* Pods-SweetLike_Example.modulemap */,
+				09D330BAAB6E51F1EA4260524680B41A /* Pods-SweetLike_Example-acknowledgements.markdown */,
+				01839943196CA13ED1414C7E58ACF255 /* Pods-SweetLike_Example-acknowledgements.plist */,
+				2C4B78927418719505696F13686C9EFC /* Pods-SweetLike_Example-dummy.m */,
+				ED56E51D770120D90E8C8FBE431DCC47 /* Pods-SweetLike_Example-frameworks.sh */,
+				A48EB3DB89169508BAFDDD34FE621196 /* Pods-SweetLike_Example-Info.plist */,
+				7E3D5A20210431582B1CACD48DAA1068 /* Pods-SweetLike_Example-umbrella.h */,
+				A7047DB2C0B4382746CF35E24CCB1A98 /* Pods-SweetLike_Example.debug.xcconfig */,
+				7452F30094B82F74C68C43E3905F8875 /* Pods-SweetLike_Example.release.xcconfig */,
 			);
 			name = "Pods-SweetLike_Example";
 			path = "Target Support Files/Pods-SweetLike_Example";
 			sourceTree = "<group>";
 		};
-		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+		30687799531399A4289D4B6C31CD135D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+				6B927B69C914EB4516B666604244661D /* ResourceBundle-SweetLike-SweetLike-Info.plist */,
+				4D859B87DD1D078C8279686B60DB88FF /* SweetLike.modulemap */,
+				53BD81FCF3A6B3ECBB424D090C0C3D05 /* SweetLike.xcconfig */,
+				97A07EA435F31410D1E572715CAE8983 /* SweetLike-dummy.m */,
+				E2756FB056BAA9EABB4B589BEC6568B0 /* SweetLike-Info.plist */,
+				32CA1ABEB60E344D4E8623C574BA4E77 /* SweetLike-prefix.pch */,
+				D0663FC15B31158E918BBEF5EE9506DE /* SweetLike-umbrella.h */,
 			);
-			name = SwiftSupport;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SweetLike";
 			sourceTree = "<group>";
 		};
-		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+		3A725385F96C9D75A7EA71A6DB3025BD /* Pods-SweetLike_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
-				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
-				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+				6DD14F385B5726CCE9EB0B19C93F03AB /* Pods-SweetLike_Tests.modulemap */,
+				4ECF53B2FDBB6D92FD98DA52BB973C9D /* Pods-SweetLike_Tests-acknowledgements.markdown */,
+				1D790A97418C7B28A94FBB88E4349060 /* Pods-SweetLike_Tests-acknowledgements.plist */,
+				2B3314E3D6DCAD48F42278449146D175 /* Pods-SweetLike_Tests-dummy.m */,
+				389F0B047E6B31C296A09497E7395B6C /* Pods-SweetLike_Tests-Info.plist */,
+				F5F20048DDB57E695EE3E3D606DA126A /* Pods-SweetLike_Tests-umbrella.h */,
+				F9EA00C5C9599C310EBB1F6E486B7151 /* Pods-SweetLike_Tests.debug.xcconfig */,
+				499061D146B6F8C066FB74AA287DC472 /* Pods-SweetLike_Tests.release.xcconfig */,
 			);
-			path = FBSnapshotTestCase;
+			name = "Pods-SweetLike_Tests";
+			path = "Target Support Files/Pods-SweetLike_Tests";
 			sourceTree = "<group>";
 		};
-		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
+		A3E563ED3B0B84DBB9B74B49E368E827 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
-				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
-				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
-				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
-				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
-				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
-				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
-				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
-				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
-				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
-				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
-				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
-				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
-				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		A3ACA08B92671E0AFD0D6906DFC52E4B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7DF50DE033103E00CA4D2BDE678C2690 /* Pods-SweetLike_Example */,
-				14EAFD0833DAB8C9158CF750295E7587 /* Pods-SweetLike_Tests */,
+				2240BB61FFA51A11FC2273E87BF65AF3 /* Pods-SweetLike_Example */,
+				3A725385F96C9D75A7EA71A6DB3025BD /* Pods-SweetLike_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		A46C83FB948D14921F3128CF698093E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
+				EAC2115392274AE8F662E2B60E558995 /* Pods_SweetLike_Example.framework */,
+				8C2A57C0C43FF9AFE00222D80BF6F111 /* Pods_SweetLike_Tests.framework */,
+				A5A8A6259F6E37B52BB2A5A0635C2363 /* SweetLike.bundle */,
+				4E27EE8C49BAB45F32AF677F08011264 /* SweetLike.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		C907190622EF7A2B004DA8DC /* Resources */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C907190722EF7A80004DA8DC /* like.png */,
-				C907190822EF7A80004DA8DC /* unlike.png */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		C907190D22EF7AB3004DA8DC /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				C907190E22EF7AB7004DA8DC /* Extensions */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		C907190E22EF7AB7004DA8DC /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				C907191422EF7BC5004DA8DC /* UIViewExtensions.swift */,
-			);
-			path = Extensions;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D054641894A00F0F4A772CCB3AF93414 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				23C17B88C954B9D28BA80F14707AD855 /* Products */,
-				A3ACA08B92671E0AFD0D6906DFC52E4B /* Targets Support Files */,
+				190C05BB28709CF02232FEAC6AF0DBC2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A46C83FB948D14921F3128CF698093E0 /* Products */,
+				A3E563ED3B0B84DBB9B74B49E368E827 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D054641894A00F0F4A772CCB3AF93414 /* Development Pods */ = {
+		CF8F3F74AACA912C372916BD7E793C4C /* SweetLike */ = {
 			isa = PBXGroup;
 			children = (
-				FA23BA6ADFDCC0BE5308D75CCF05FF81 /* SweetLike */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F390F9FFD7D044B06EBEB88E08624F76 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A0FB8648B96CF836956088F9C93AFC97 /* LICENSE */,
-				5AF9D4975263DC7ABAC5D9A9A9249115 /* README.md */,
-				0FD56C6B07E3ECA032DBA9B6D7D4C0B3 /* SweetLike.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FA23BA6ADFDCC0BE5308D75CCF05FF81 /* SweetLike */ = {
-			isa = PBXGroup;
-			children = (
-				26F66408BAA41F75D382796511E1C3A7 /* SweetLike.swift */,
-				C907191822EF7C93004DA8DC /* SweetLikeDelegate.swift */,
-				F390F9FFD7D044B06EBEB88E08624F76 /* Pod */,
-				C907190622EF7A2B004DA8DC /* Resources */,
-				1818448D58EA1570132B9E622D8FC94E /* Support Files */,
-				C907190D22EF7AB3004DA8DC /* Utils */,
+				33F62A79CA0631D25F2F30CC2F1B68A5 /* SweetLike.swift */,
+				64B76E2D3680C302726936DCFE164F37 /* SweetLikeDelegate.swift */,
+				1C2B5CE7D3770366D4DA3E207CF61E02 /* UIViewExtensions.swift */,
+				12B82638556272D626B1063969C74102 /* Pod */,
+				DACF2AE9406C6FE12932DF72B010A510 /* Resources */,
+				30687799531399A4289D4B6C31CD135D /* Support Files */,
 			);
 			name = SweetLike;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DACF2AE9406C6FE12932DF72B010A510 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C891E4AFB552961C8C5893DF1510CFB /* like.png */,
+				D4026C6C0E3BB4F99D93367DC1CDE6A7 /* unlike.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+		48D052CD5FEDC0EF6F19881B5667FDBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
-				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
-				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+				4CE68626C3A79285346A2220DA46CAB8 /* SweetLike-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4364542BB463BED2ADA95289F274B8AF /* Headers */ = {
+		7581BBA6FCAAC2B76566824226472E1F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A3250EB8F3CCDA23789DDC0749FC48 /* SweetLike-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C291704D74951C78B471749E9A0516E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB8D138E85E6BBC1B480AAADB66BECE0 /* Pods-SweetLike_Tests-umbrella.h in Headers */,
+				8192831888BCD6000BDE65D61205BC01 /* Pods-SweetLike_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,18 +294,17 @@
 /* Begin PBXNativeTarget section */
 		6DD2EF9D8590E18FE203BA4A0346B99A /* Pods-SweetLike_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05FEF86FA2DF9340EA542EF3EB99ECAC /* Build configuration list for PBXNativeTarget "Pods-SweetLike_Tests" */;
+			buildConfigurationList = 24902801283F958892B1A6C24EF5FACE /* Build configuration list for PBXNativeTarget "Pods-SweetLike_Tests" */;
 			buildPhases = (
-				7C291704D74951C78B471749E9A0516E /* Headers */,
-				66D36E739A6FC253CCB11A088DAAC827 /* Sources */,
-				4AEB6E22749EB3056786693C344E61AE /* Frameworks */,
-				E8797B3AE601310445559F9BB8D3564A /* Resources */,
+				7581BBA6FCAAC2B76566824226472E1F /* Headers */,
+				B1F48D290A73FA30591C924B8275BC28 /* Sources */,
+				2660670A9AD3EE576BCA20C17D76F6EA /* Frameworks */,
+				063798D1D0C6DF756A50DC165D851709 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				778B0A65A0CF4560326193FE76EA8007 /* PBXTargetDependency */,
-				1DE2058A8D50EFDF3DB9560E93CCA671 /* PBXTargetDependency */,
+				A7BCE7F8A6556812B61C4F4E626E1CD6 /* PBXTargetDependency */,
 			);
 			name = "Pods-SweetLike_Tests";
 			productName = "Pods-SweetLike_Tests";
@@ -473,36 +330,36 @@
 			productReference = EAC2115392274AE8F662E2B60E558995 /* Pods_SweetLike_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+		87DD5985A5B5645B8697E18C18D51B63 /* SweetLike-SweetLike */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = D8094C0F8F1008447603C78FC946E028 /* Build configuration list for PBXNativeTarget "SweetLike-SweetLike" */;
 			buildPhases = (
-				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
-				E581515110D66F94F80A6937831489A1 /* Frameworks */,
-				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+				034B7C4D76D1F7FAB8FE6479D3BD666E /* Sources */,
+				97EAEEAC43FA84724CE71197D93118E8 /* Frameworks */,
+				8D562BB90E64676C8DDE3D3C14405295 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "SweetLike-SweetLike";
+			productName = "SweetLike-SweetLike";
+			productReference = A5A8A6259F6E37B52BB2A5A0635C2363 /* SweetLike.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		99165B3312606ADE1FEB8E8DAFE84F2B /* SweetLike */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65FF50E843B7E830DB5FBCD1EF9D9DF2 /* Build configuration list for PBXNativeTarget "SweetLike" */;
+			buildConfigurationList = BB8C66AED35F906F14C56F8FF6A1F41F /* Build configuration list for PBXNativeTarget "SweetLike" */;
 			buildPhases = (
-				4364542BB463BED2ADA95289F274B8AF /* Headers */,
-				049FCCCAC0B63BE1F3D036F3AF5DB001 /* Sources */,
-				E16279DDCD3CCD9D07D940CFB4FF2172 /* Frameworks */,
-				40746D5C080389F28AA267CA5B48FC60 /* Resources */,
+				48D052CD5FEDC0EF6F19881B5667FDBE /* Headers */,
+				A551498F448DCB536A3B22D1DDBA7B7E /* Sources */,
+				8B82435D6E7C660CA545EB0022209B07 /* Frameworks */,
+				0F2A2BA9F2B47C651BC60B04DE826BEB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0211B5F7AFCA64A6949A080B44391D18 /* PBXTargetDependency */,
 			);
 			name = SweetLike;
 			productName = SweetLike;
@@ -526,32 +383,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 23C17B88C954B9D28BA80F14707AD855 /* Products */;
+			productRefGroup = A46C83FB948D14921F3128CF698093E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				78E3351CE35FAD3EA3E97F66F88137C7 /* Pods-SweetLike_Example */,
 				6DD2EF9D8590E18FE203BA4A0346B99A /* Pods-SweetLike_Tests */,
 				99165B3312606ADE1FEB8E8DAFE84F2B /* SweetLike */,
+				87DD5985A5B5645B8697E18C18D51B63 /* SweetLike-SweetLike */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40746D5C080389F28AA267CA5B48FC60 /* Resources */ = {
+		063798D1D0C6DF756A50DC165D851709 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+		0F2A2BA9F2B47C651BC60B04DE826BEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C907190922EF7A80004DA8DC /* like.png in Resources */,
-				C907190A22EF7A80004DA8DC /* unlike.png in Resources */,
+				94EC28A0A0C9E59FF5342149B4207AF4 /* like.png in Resources */,
+				F57CC80A6491A0DB0E10D0F1CF87C27B /* SweetLike.bundle in Resources */,
+				D3B14F06C175F78478D052997020C2CB /* unlike.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,32 +420,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8797B3AE601310445559F9BB8D3564A /* Resources */ = {
+		8D562BB90E64676C8DDE3D3C14405295 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3216153071BCEBA2FC6520093B5114 /* like.png in Resources */,
+				B5D2502280DA491780D4373F352056EA /* unlike.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		049FCCCAC0B63BE1F3D036F3AF5DB001 /* Sources */ = {
+		034B7C4D76D1F7FAB8FE6479D3BD666E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A7E31E293C915871691C9DECDB562E /* SweetLike.swift in Sources */,
-				C907191522EF7BC5004DA8DC /* UIViewExtensions.swift in Sources */,
-				C907191922EF7C94004DA8DC /* SweetLikeDelegate.swift in Sources */,
-				574D709954554E00A9306F2857CE5D1D /* SweetLike-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66D36E739A6FC253CCB11A088DAAC827 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76DC1DEAAF9AFA6364FE7CA84B24CE6B /* Pods-SweetLike_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,36 +447,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+		A551498F448DCB536A3B22D1DDBA7B7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+				B4CC95217C942441DD0F58D352D99AA5 /* SweetLike-dummy.m in Sources */,
+				9E3ADE5F9DED06C92BE74659EF35BDBA /* SweetLike.swift in Sources */,
+				ED1EE35324F4666C6FB8F5C8982EA58C /* SweetLikeDelegate.swift in Sources */,
+				260A42230AA64793913A29C37AA3B5A8 /* UIViewExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F48D290A73FA30591C924B8275BC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E3CBE81FDC66F5371EF6D9D8AA12C /* Pods-SweetLike_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1DE2058A8D50EFDF3DB9560E93CCA671 /* PBXTargetDependency */ = {
+		0211B5F7AFCA64A6949A080B44391D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SweetLike-SweetLike";
+			target = 87DD5985A5B5645B8697E18C18D51B63 /* SweetLike-SweetLike */;
+			targetProxy = 28A7C24C427C1580D31BE15CCB8038AE /* PBXContainerItemProxy */;
+		};
+		A7BCE7F8A6556812B61C4F4E626E1CD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SweetLike_Example";
 			target = 78E3351CE35FAD3EA3E97F66F88137C7 /* Pods-SweetLike_Example */;
-			targetProxy = FDDB88DB71902364E2D5B5D43B0E8DAB /* PBXContainerItemProxy */;
-		};
-		778B0A65A0CF4560326193FE76EA8007 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 1D3B32C07615A9DD8C8DF2529734C820 /* PBXContainerItemProxy */;
+			targetProxy = 3C143A9D72ED1751030C8858D56E3406 /* PBXContainerItemProxy */;
 		};
 		B050A95130F7A2E62FA5BEAFD453E2E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -639,9 +490,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12A3A3EBB34B44B5C17FF1BA5D0E14F1 /* Debug */ = {
+		0DF4C658D128C6C009A50820EE95F89B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDB518C29D99605B20596D0CA970A90E /* SweetLike.xcconfig */;
+			baseConfigurationReference = 499061D146B6F8C066FB74AA287DC472 /* Pods-SweetLike_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SweetLike_Tests/Pods-SweetLike_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SweetLike_Tests/Pods-SweetLike_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24D3E3D6BD981B134B0BD542AB29CF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BD81FCF3A6B3ECBB424D090C0C3D05 /* SweetLike.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -655,7 +540,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SweetLike/SweetLike-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SweetLike/SweetLike-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SweetLike/SweetLike.modulemap";
 				PRODUCT_MODULE_NAME = SweetLike;
@@ -663,16 +548,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25EF399A0D943743A3F5B5D8C138023E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EA00C5C9599C310EBB1F6E486B7151 /* Pods-SweetLike_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SweetLike_Tests/Pods-SweetLike_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SweetLike_Tests/Pods-SweetLike_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		22F57DCA031DD3D791B28C21849D6B5B /* Release */ = {
+		69F9627143027E9A51B930601545F9D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDB518C29D99605B20596D0CA970A90E /* SweetLike.xcconfig */;
+			baseConfigurationReference = 53BD81FCF3A6B3ECBB424D090C0C3D05 /* SweetLike.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -686,7 +605,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SweetLike/SweetLike-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SweetLike/SweetLike-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SweetLike/SweetLike.modulemap";
 				PRODUCT_MODULE_NAME = SweetLike;
@@ -694,49 +613,48 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+		86559ED1461DBEBDC409E797EF2E29BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 53BD81FCF3A6B3ECBB424D090C0C3D05 /* SweetLike.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SweetLike";
+				INFOPLIST_FILE = "Target Support Files/SweetLike/ResourceBundle-SweetLike-SweetLike-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SweetLike;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		951A91954D43235EDA888A48BA8F3792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BD81FCF3A6B3ECBB424D090C0C3D05 /* SweetLike.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SweetLike";
+				INFOPLIST_FILE = "Target Support Files/SweetLike/ResourceBundle-SweetLike-SweetLike-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SweetLike;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 		9D3B4FDE39AD3E4170C931D61C2D6923 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A13F6D4FACCC2841E1F0FBF83892CFD /* Pods-SweetLike_Example.debug.xcconfig */;
+			baseConfigurationReference = A7047DB2C0B4382746CF35E24CCB1A98 /* Pods-SweetLike_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -750,7 +668,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SweetLike_Example/Pods-SweetLike_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SweetLike_Example/Pods-SweetLike_Example.modulemap";
@@ -815,7 +733,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -877,7 +795,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -890,42 +808,9 @@
 			};
 			name = Debug;
 		};
-		CEC99595C916B89B0ABC464CBCF9BD47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 281A9B1B114EE0DD1C692698CF1167AA /* Pods-SweetLike_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SweetLike_Tests/Pods-SweetLike_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SweetLike_Tests/Pods-SweetLike_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D29DC89969EE67D321529C8F055BD5EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F6A8D59577C469A32744D979B9DCB0B /* Pods-SweetLike_Example.release.xcconfig */;
+			baseConfigurationReference = 7452F30094B82F74C68C43E3905F8875 /* Pods-SweetLike_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -939,7 +824,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SweetLike_Example/Pods-SweetLike_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SweetLike_Example/Pods-SweetLike_Example.modulemap";
@@ -957,79 +842,14 @@
 			};
 			name = Release;
 		};
-		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F270A05FBE4362FDEA297D01EC69432D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F95CB69E2961D78BC05F803DDCADC22 /* Pods-SweetLike_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SweetLike_Tests/Pods-SweetLike_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SweetLike_Tests/Pods-SweetLike_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05FEF86FA2DF9340EA542EF3EB99ECAC /* Build configuration list for PBXNativeTarget "Pods-SweetLike_Tests" */ = {
+		24902801283F958892B1A6C24EF5FACE /* Build configuration list for PBXNativeTarget "Pods-SweetLike_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEC99595C916B89B0ABC464CBCF9BD47 /* Debug */,
-				F270A05FBE4362FDEA297D01EC69432D /* Release */,
+				25EF399A0D943743A3F5B5D8C138023E /* Debug */,
+				0DF4C658D128C6C009A50820EE95F89B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1052,20 +872,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65FF50E843B7E830DB5FBCD1EF9D9DF2 /* Build configuration list for PBXNativeTarget "SweetLike" */ = {
+		BB8C66AED35F906F14C56F8FF6A1F41F /* Build configuration list for PBXNativeTarget "SweetLike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12A3A3EBB34B44B5C17FF1BA5D0E14F1 /* Debug */,
-				22F57DCA031DD3D791B28C21849D6B5B /* Release */,
+				69F9627143027E9A51B930601545F9D1 /* Debug */,
+				24D3E3D6BD981B134B0BD542AB29CF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		D8094C0F8F1008447603C78FC946E028 /* Build configuration list for PBXNativeTarget "SweetLike-SweetLike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE252C6C51286892441EE171776C7E81 /* Debug */,
-				6981B49048575F8238B3C5B905C918E5 /* Release */,
+				86559ED1461DBEBDC409E797EF2E29BB /* Debug */,
+				951A91954D43235EDA888A48BA8F3792 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

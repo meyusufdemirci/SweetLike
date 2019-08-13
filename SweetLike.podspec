@@ -11,7 +11,7 @@ s.author = { 'Yusuf Demirci' => 'demirciy94@gmail.com' }
 s.source = { :git => 'https://github.com/demirciy/SweetLike.git', :tag => s.version.to_s }
 s.social_media_url = 'https://www.linkedin.com/in/yusufdemirci/'
 
-s.ios.deployment_target = '9.3'
+s.ios.deployment_target = '10.0'
 s.swift_versions = '5.0'
 
 s.source_files = 'SweetLike/Classes/**/*'
