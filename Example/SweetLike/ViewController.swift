@@ -11,10 +11,13 @@ import SweetLike
 
 class ViewController: UIViewController {
 
+    // MARK: - Properties
     @IBOutlet weak var sweetLikeButton: SweetLike!
+    private let button: SweetLike = SweetLike(frame: CGRect(x: (UIScreen.main.bounds.width / 2) - 25, y: 50, width: 50, height: 50))
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.addSubview(button)
     }
 }

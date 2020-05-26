@@ -62,9 +62,19 @@ public enum SweetLikeStatus {
         }
     }
     
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        initUI()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
     public override func awakeFromNib() {
         super.awakeFromNib()
-        
+
         initUI()
     }
 }
