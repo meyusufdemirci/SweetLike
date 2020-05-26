@@ -8,38 +8,39 @@
 
 import UIKit
 
-public enum Status {
+public enum SweetLikeStatus {
     case liked, unliked
 }
 
 @IBDesignable public class SweetLike: UIView {
     
-    // MARK: Properties
+    // MARK: - UI Properties
     public var likeButton: UIButton!
     public var unlikeButton: UIButton!
-    @IBInspectable public var likeImage: UIImage? = UIImage(named: "like", in: Bundle(for: SweetLike.self), compatibleWith: nil)
-    @IBInspectable public var unlikeImage: UIImage? = UIImage(named: "unlike", in: Bundle(for: SweetLike.self), compatibleWith: nil)
-    public var likeActionAnimationDuration: Double = 0.6
-    public var unlikeActionAnimationDuration: Double = 0.15
+    
+    // MARK: - IBInspectable Properties
+    @IBInspectable public var likeImage: UIImage? = UIImage(named: "likeAsset", in: Bundle(for: SweetLike.self), compatibleWith: nil)
+    @IBInspectable public var unlikeImage: UIImage? = UIImage(named: "unlikeAsset", in: Bundle(for: SweetLike.self), compatibleWith: nil)
+    
+    // MARK: - Public Properties
     public var delegate: SweetLikeDelegate?
     public var likeActionCompletion: (() -> Void)?
     public var unlikeActionCompletion: (() -> Void)?
-    public var currentStatus: Status {
-        return status
-    }
+    public var likeActionAnimationDuration: Double = 0.6
+    public var unlikeActionAnimationDuration: Double = 0.15
+    public var currentStatus: SweetLikeStatus { return status }
     public var isAnimationEnabled: Bool = true
     
-    /// likeButton tint color
-    private var likeColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
-    /// unlikeButton tint color
-    private var unlikeColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
+    // MARK: - Private Properties
+    private var likeTintColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
+    private var unlikeTintColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
     private var isAnimating = false
-    private var status: Status = .unliked {
+    private var status: SweetLikeStatus = SweetLikeStatus.unliked {
         didSet {
             switch status {
-            case .liked:
+            case SweetLikeStatus.liked:
                 isAnimationEnabled ? likeActionWithAnimation() : likeActionWithoutAnimation()
-            case .unliked:
+            case SweetLikeStatus.unliked:
                 isAnimationEnabled ? unlikeActionWithAnimation() : unlikeActionWithoutAnimation()
             }
         }
@@ -52,29 +53,41 @@ public enum Status {
     }
 }
 
-// MARK: Actions
+// MARK: - Public Functions
+public extension SweetLike {
+    
+    func setStatus(_ newStatus: SweetLikeStatus) {
+        if isAnimating { return }
+        
+        status = newStatus
+    }
+}
+
+// MARK: - Actions
 private extension SweetLike {
     
     @objc func likeButtonAction() {
-        setStatus(.unliked)
+        setStatus(SweetLikeStatus.unliked)
     }
     
     @objc func unlikeButtonAction() {
-        setStatus(.liked)
+        setStatus(SweetLikeStatus.liked)
     }
     
     @objc func likeActionWithAnimation() {
         isAnimating = true
+        
         delegate?.likeAction()
         likeActionCompletion?()
         
         unlikeButton.alpha = 0
         likeButton.alpha = 1
         
-        UIView.animateKeyframes(withDuration: likeActionAnimationDuration, delay: 0, options: [.beginFromCurrentState, UIView.KeyframeAnimationOptions(rawValue: 1)], animations: {
+        UIView.animateKeyframes(withDuration: likeActionAnimationDuration, delay: 0, options: [UIView.KeyframeAnimationOptions.beginFromCurrentState, UIView.KeyframeAnimationOptions(rawValue: 1)], animations: {
             UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: self.likeActionAnimationDuration / 2, animations: {
                 self.likeButton.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
             })
+            
             UIView.addKeyframe(withRelativeStartTime: self.likeActionAnimationDuration / 2, relativeDuration: self.likeActionAnimationDuration / 2, animations: {
                 self.likeButton.transform = CGAffineTransform.identity
             })
@@ -85,6 +98,7 @@ private extension SweetLike {
     
     @objc func likeActionWithoutAnimation() {
         isAnimating = true
+        
         delegate?.likeAction()
         likeActionCompletion?()
         
@@ -96,6 +110,7 @@ private extension SweetLike {
     
     @objc func unlikeActionWithAnimation() {
         isAnimating = true
+        
         delegate?.unlikeAction()
         unlikeActionCompletion?()
         
@@ -109,6 +124,7 @@ private extension SweetLike {
     
     @objc func unlikeActionWithoutAnimation() {
         isAnimating = true
+        
         delegate?.unlikeAction()
         unlikeActionCompletion?()
         
@@ -119,40 +135,31 @@ private extension SweetLike {
     }
 }
 
-// MARK: Public Functions
-public extension SweetLike {
-    
-    func setStatus(_ newStatus: Status) {
-        if isAnimating { return }
-        
-        status = newStatus
-    }
-}
-
-// MARK: Private Functions
+// MARK: - Private Functions
 private extension SweetLike {
     
     func initUI() {
-        // MARK: Initializing like button
+        // Initializing like button
         likeButton = UIButton(frame: self.frame)
         likeButton.alpha = 0
-        likeButton.setImage(likeImage, for: .normal)
-        likeButton.imageView?.tintColor = likeColor
-        likeButton.addTarget(self, action: #selector(likeButtonAction), for: .touchUpInside)
+        likeButton.setImage(likeImage, for: UIControl.State.normal)
+        likeButton.imageView?.tintColor = likeTintColor
+        likeButton.addTarget(self, action: #selector(likeButtonAction), for: UIControl.Event.touchUpInside)
         initButton(button: likeButton)
-        // MARK: Initializing unlike button
+        
+        // Initializing unlike button
         unlikeButton = UIButton(frame: self.frame)
         unlikeButton.alpha = 1
-        unlikeButton.setImage(unlikeImage, for: .normal)
-        unlikeButton.imageView?.tintColor = unlikeColor
-        unlikeButton.addTarget(self, action: #selector(unlikeButtonAction), for: .touchUpInside)
+        unlikeButton.setImage(unlikeImage, for: UIControl.State.normal)
+        unlikeButton.imageView?.tintColor = unlikeTintColor
+        unlikeButton.addTarget(self, action: #selector(unlikeButtonAction), for: UIControl.Event.touchUpInside)
         initButton(button: unlikeButton)
     }
     
     func initButton(button: UIButton) {
-        button.imageView?.contentMode = .scaleAspectFit
-        button.contentVerticalAlignment = .center
-        button.contentHorizontalAlignment = .center
+        button.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        button.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
+        button.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.center
         addSubview(button)
         button.bindFrameToViewBounds(toView: self)
     }
