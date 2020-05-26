@@ -12,18 +12,9 @@ podfile: Example/Podfile
 before_install:
 - pod install --project-directory=Example
 
-# script:
-# - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SweetLike.xcworkspace -scheme SweetLike-Example -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
-# - pod lib lint
-
-# cache: cocoapods
-# podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
-#script:
-#- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SweetLike.xcworkspace -scheme SweetLike-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
-#- pod lib lint
+script:
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SweetLike.xcworkspace -scheme SweetLike-Example -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+- pod lib lint
 
 notifications:
   slack: demirciy:pzu0mBJfP9CAy16arOxASvjF
