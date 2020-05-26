@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'SweetLike_Example' do
+  pod 'SweetLike', :path => '../'
+
+  target 'SweetLike_Tests' do
+    inherit! :search_paths
+  end
+end

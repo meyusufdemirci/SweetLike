@@ -1,0 +1,16 @@
+PODS:
+  - SweetLike (1.0.0)
+
+DEPENDENCIES:
+  - SweetLike (from `../`)
+
+EXTERNAL SOURCES:
+  SweetLike:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SweetLike: 19d2d18ad13fd9839154a12b6c43e954feb39017
+
+PODFILE CHECKSUM: 6618f82e2980fb1dc5b08deab78b67448990b38b
+
+COCOAPODS: 1.9.2
