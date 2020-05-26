@@ -19,21 +19,37 @@ public enum SweetLikeStatus {
     public var unlikeButton: UIButton!
     
     // MARK: - IBInspectable Properties
-    @IBInspectable public var likeImage: UIImage? = UIImage(named: "likeAsset", in: Bundle(for: SweetLike.self), compatibleWith: nil)
-    @IBInspectable public var unlikeImage: UIImage? = UIImage(named: "unlikeAsset", in: Bundle(for: SweetLike.self), compatibleWith: nil)
+    @IBInspectable public var likedImage: UIImage? = UIImage(named: "likedAsset", in: Bundle(for: SweetLike.self), compatibleWith: nil) {
+        didSet {
+            likeButton.setImage(likedImage, for: UIControl.State.normal)
+        }
+    }
+    @IBInspectable public var unlikedImage: UIImage? = UIImage(named: "unlikedAsset", in: Bundle(for: SweetLike.self), compatibleWith: nil) {
+        didSet {
+            unlikeButton.setImage(unlikedImage, for: UIControl.State.normal)
+        }
+    }
+    @IBInspectable public var likedColor: UIColor? = UIColor(red: 201/255, green: 97/255, blue: 80/255, alpha: 1) {
+        didSet {
+            likeButton.imageView?.tintColor = likedColor
+        }
+    }
+    @IBInspectable public var unlikedColor: UIColor? = UIColor(red: 201/255, green: 97/255, blue: 80/255, alpha: 1) {
+        didSet {
+            unlikeButton.imageView?.tintColor = unlikedColor
+        }
+    }
     
     // MARK: - Public Properties
     public var delegate: SweetLikeDelegate?
-    public var likeActionCompletion: (() -> Void)?
-    public var unlikeActionCompletion: (() -> Void)?
+    public var likeAction: (() -> Void)?
+    public var unlikeAction: (() -> Void)?
     public var likeActionAnimationDuration: Double = 0.6
     public var unlikeActionAnimationDuration: Double = 0.15
     public var currentStatus: SweetLikeStatus { return status }
     public var isAnimationEnabled: Bool = true
     
     // MARK: - Private Properties
-    private var likeTintColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
-    private var unlikeTintColor: UIColor = UIColor(red: 200/255, green: 97/255, blue: 80/255, alpha: 1)
     private var isAnimating = false
     private var status: SweetLikeStatus = SweetLikeStatus.unliked {
         didSet {
@@ -78,7 +94,7 @@ private extension SweetLike {
         isAnimating = true
         
         delegate?.likeAction()
-        likeActionCompletion?()
+        likeAction?()
         
         unlikeButton.alpha = 0
         likeButton.alpha = 1
@@ -100,7 +116,7 @@ private extension SweetLike {
         isAnimating = true
         
         delegate?.likeAction()
-        likeActionCompletion?()
+        likeAction?()
         
         unlikeButton.alpha = 0
         likeButton.alpha = 1
@@ -112,7 +128,7 @@ private extension SweetLike {
         isAnimating = true
         
         delegate?.unlikeAction()
-        unlikeActionCompletion?()
+        unlikeAction?()
         
         UIView.animate(withDuration: unlikeActionAnimationDuration, animations: {
             self.likeButton.alpha = 0
@@ -126,7 +142,7 @@ private extension SweetLike {
         isAnimating = true
         
         delegate?.unlikeAction()
-        unlikeActionCompletion?()
+        unlikeAction?()
         
         likeButton.alpha = 0
         unlikeButton.alpha = 1
@@ -142,16 +158,16 @@ private extension SweetLike {
         // Initializing like button
         likeButton = UIButton(frame: self.frame)
         likeButton.alpha = 0
-        likeButton.setImage(likeImage, for: UIControl.State.normal)
-        likeButton.imageView?.tintColor = likeTintColor
+        likeButton.setImage(likedImage, for: UIControl.State.normal)
+        likeButton.imageView?.tintColor = likedColor
         likeButton.addTarget(self, action: #selector(likeButtonAction), for: UIControl.Event.touchUpInside)
         initButton(button: likeButton)
         
         // Initializing unlike button
         unlikeButton = UIButton(frame: self.frame)
         unlikeButton.alpha = 1
-        unlikeButton.setImage(unlikeImage, for: UIControl.State.normal)
-        unlikeButton.imageView?.tintColor = unlikeTintColor
+        unlikeButton.setImage(unlikedImage, for: UIControl.State.normal)
+        unlikeButton.imageView?.tintColor = unlikedColor
         unlikeButton.addTarget(self, action: #selector(unlikeButtonAction), for: UIControl.Event.touchUpInside)
         initButton(button: unlikeButton)
     }

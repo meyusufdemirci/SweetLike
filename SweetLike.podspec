@@ -17,9 +17,4 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SweetLike/Classes/**/*'
   s.resources = 'SweetLike/Resources/*'
-  # s.resource_bundles = {
-  #   'SweetLike' => ['SweetLike/**/Assets/*.png']
-  # }
-# s.resources = 'SweetLike/**/Assets/*.png'
-
 end
