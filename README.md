@@ -45,8 +45,8 @@ To get like and unlike actions,
 with completion:
 
 ```ruby
-sweetLikeButton.likeActionCompletion = {}
-sweetLikeButton.unlikeActionCompletion = {}
+sweetLikeButton.likeAction = {}
+sweetLikeButton.unlikeAction = {}
 ```
 
 with delegate(SweetLikeDelegate):
