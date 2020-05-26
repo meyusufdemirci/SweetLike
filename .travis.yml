@@ -5,17 +5,27 @@
 osx_image: xcode11.4
 language: swift
 xcode_workspace: Example/SweetLike.xcworkspace
-xcode_scheme: SweetLike-Example
-xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 11
+# xcode_scheme: SweetLike-Example
+# xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 11
+xcode_destination: platform=iOS Simulator,name=iPhone 11
 podfile: Example/Podfile
 
 before_install:
 - pod install --project-directory=Example
 
-script:
+jobs:
+  include:
+    - name: "Build & Test Example (iOS)"
+      xcode_scheme: SweetLike-Example
+    - name: "Pod library lint"
+      script: 
+      - pod lib lint SweetLike.podspec
+
+# script:
 # - set -o pipefail && xcodebuild test --project-directory=Example
-- set -o pipefail && xcodebuild test -workspace Example/SweetLike.xcworkspace
-- pod lib lint
+# - set -o pipefail && xcodebuild test -workspace Example/SweetLike.xcworkspace
+# - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/${POD_NAME}.xcworkspace -scheme ${POD_NAME}-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+# - pod lib lint
 
 notifications:
   slack: demirciy:pzu0mBJfP9CAy16arOxASvjF
