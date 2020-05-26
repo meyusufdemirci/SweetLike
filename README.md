@@ -1,6 +1,6 @@
 # SweetLike
 
-[![CI Status](https://img.shields.io/travis/demirciy/SweetLike.svg?style=flat)](https://travis-ci.org/demirciy/SweetLike)
+[![CI Status](https://img.shields.io/travis/demirciy/SweetLike.svg?style=flat)](https://travis-ci.com/demirciy/SweetLike)
 [![Version](https://img.shields.io/cocoapods/v/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
 [![License](https://img.shields.io/cocoapods/l/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
 [![Platform](https://img.shields.io/cocoapods/p/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
@@ -12,8 +12,8 @@
 ## Requirements
 
  - iOS 10.0+
- - Xcode 8.0+
- - Swift 3.0+
+ - Xcode 11.0+
+ - Swift 5.0+
 
 ## Installation
 
@@ -58,13 +58,15 @@ func unlikeAction() {}
 
 There are a few properties you may change:
 
-| Property                        | Description                                            | Type    | Default Value |
-|:--------------------------------|:-------------------------------------------------------|:--------|:--------------|
-| IBInspectable likeImage         | The image that shows when liked                        | UIImage |               |
-| IBInspectable unlikeImage       | The image that shows when unliked                      | UIImage |               |
-| likeActionAnimationDuration     | The duration of total like animation                   | Double  |      0.6      |
-| unlikeActionAnimationDuration   | The duration of total unlike animation                 | Double  |      0.15     |
-| isAnimationEnabled              | The boolean if animating enabled or disabled           | Bool    |      true     |
+| Property                        | Description                                               | Type    | Default Value       |
+|:--------------------------------|:----------------------------------------------------------|:--------|:--------------------|
+| IBInspectable likedImage | The image that shows when liked | UIImage | named: likedAsset |
+| IBInspectable unlikedImage | The image that shows when unliked| UIImage| named: unlikedAsset |
+| IBInspectable likedColor | The color of the default liked image | UIColor | UIColor(red: 201/255, green: 97/255, blue: 80/255, alpha: 1) |
+| IBInspectable unlikedColor | The color of the default unliked image | UIColor | UIColor(red: 201/255, green: 97/255, blue: 80/255, alpha: 1) |
+| likeActionAnimationDuration | The duration of like animation | Double | 0.6 |
+| unlikeActionAnimationDuration | The duration of unlike animation | Double | 0.15 |
+| isAnimationEnabled | The boolean that states the animating enabled or disabled | Bool | true |
 
 ## Author
 
