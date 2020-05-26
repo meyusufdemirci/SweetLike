@@ -1,6 +1,0 @@
-framework module SweetLike {
-  umbrella header "SweetLike-umbrella.h"
-
-  export *
-  module * { export * }
-}
