@@ -13,7 +13,8 @@ before_install:
 - pod install --project-directory=Example
 
 script:
-- set -o pipefail && xcodebuild test --workspace-directory=Example
+# - set -o pipefail && xcodebuild test --project-directory=Example
+- set -o pipefail && xcodebuild test -workspace Example/SweetLike.xcworkspace
 - pod lib lint
 
 notifications:
