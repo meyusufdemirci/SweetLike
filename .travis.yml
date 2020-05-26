@@ -10,7 +10,7 @@ before_install:
 
 jobs:
   include:
-    - name: "Build & Test Example (iOS)"
+    - name: "Build & Test Example"
       xcode_scheme: SweetLike-Example
     - name: "Pod library lint"
       script: 
