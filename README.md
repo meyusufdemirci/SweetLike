@@ -1,11 +1,9 @@
 # SweetLike
 
-[![CI Status](https://img.shields.io/travis/demirciy/SweetLike.svg?style=flat)](https://travis-ci.com/demirciy/SweetLike)
+[![CI Status](https://travis-ci.com/demirciy/SweetLike.svg?style=flat)](https://travis-ci.com/demirciy/SweetLike)
 [![Version](https://img.shields.io/cocoapods/v/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
 [![License](https://img.shields.io/cocoapods/l/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
 [![Platform](https://img.shields.io/cocoapods/p/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
-
-# Demo
 
 ![alt tag](https://media.giphy.com/media/UWc65S9RjZL3DE399c/giphy.gif)
 
@@ -71,7 +69,3 @@ There are a few properties you may change:
 ## Author
 
 Yusuf Demirci, demirciy94@gmail.com
-
-## License
-
-SweetLike is available under the MIT license. See the LICENSE file for more info.
