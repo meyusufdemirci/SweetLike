@@ -1,9 +1,9 @@
 # SweetLike
 
-[![CI Status](https://img.shields.io/travis/demirciy/SweetLike.svg?style=flat)](https://travis-ci.com/demirciy/SweetLike)
-[![Version](https://img.shields.io/cocoapods/v/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
-[![License](https://img.shields.io/cocoapods/l/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
-[![Platform](https://img.shields.io/cocoapods/p/SweetLike.svg?style=flat)](https://cocoapods.org/pods/SweetLike)
+[![CI Status](https://travis-ci.com/demirciy/SweetLike.svg)](https://travis-ci.com/demirciy/SweetLike)
+[![Version](https://img.shields.io/cocoapods/v/SweetLike.svg)](https://cocoapods.org/pods/SweetLike)
+[![License](https://img.shields.io/cocoapods/l/SweetLike.svg)](https://cocoapods.org/pods/SweetLike)
+[![Platform](https://img.shields.io/cocoapods/p/SweetLike.svg)](https://cocoapods.org/pods/SweetLike)
 
 # Demo
 
